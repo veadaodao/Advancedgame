@@ -10,15 +10,15 @@ public class PerlinNoise : MonoBehaviour
     public float frequency = 1f;
     [RangeAttribute(1f, 10f)]
     public int octaves = 8;
-    Texture2D image;
     Terrain terrain;
-    Transform Transform;
-    Vector3 direction;
+    public float offsetX=100f;
+    public float offsetY = 100f;
     // Start is called before the first frame update
     void Start()
     {
         terrain = GetComponent<Terrain>();
-        image = new Texture2D(terrain.terrainData.heightmapWidth, terrain.terrainData.heightmapHeight);
+        offsetX = Random.Range(0f, 9999f);
+        offsetY = Random.Range(0f, 9999f);
     }
 
     // Update is called once per frame
@@ -32,8 +32,8 @@ public class PerlinNoise : MonoBehaviour
             for (int j = 0; j < terrain.terrainData.heightmapWidth; ++j)
             {
 
-                float x = j / (float)terrain.terrainData.heightmapWidth;
-                float y = i / (float)terrain.terrainData.heightmapHeight;
+                float x = j / (float)terrain.terrainData.heightmapWidth+offsetX;
+                float y = i / (float)terrain.terrainData.heightmapHeight+offsetY;
 
 
                 float current_frequency = frequency;
@@ -50,6 +50,7 @@ public class PerlinNoise : MonoBehaviour
             }
         }
         terrain.terrainData.SetHeights(0, 0, heightmap);
-
+        offsetX += Time.deltaTime * 1f;
+        offsetY += Time.deltaTime * 1f;
     }
 }
