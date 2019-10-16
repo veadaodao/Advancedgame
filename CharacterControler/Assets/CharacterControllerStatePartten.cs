@@ -11,6 +11,15 @@ public class CharacterControllerStatePartten : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        LinkedList list = new LinkedList();
+        list.Add("the");
+        list.Add("the");
+        list.Add("the");
+        list.Add("the");
+        list.Add("the");
+        list.Add("the");
+
+
         state = PLAYER_STATE.S_IDLE;
         anim = GetComponent<Animator>();
         PlayerRB = GetComponent<Rigidbody>();
