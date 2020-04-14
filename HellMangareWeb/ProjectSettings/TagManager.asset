@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - LivingLevel
+  - Firelevel
+  - Unit
+  - door
+  - FireLevel
+  - FxTemporaire
+  - Camp
+  - Fountain
+  - SnowCamp
+  - Cage
+  - Rebirth
+  - Toil
+  - AvariceCoin
+  - AvariceCoinCenter
+  - Grave
+  - CenterGrave
+  - Policy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - MoveUnit
+  - SelectBuilding
+  - SoulProfile
+  - Camp
+  - Fountain
+  - SnowCamp
+  - Cage
+  - NPC
+  - Light
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

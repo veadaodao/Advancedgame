@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &751509994247742140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 751509994247742143}
+  - component: {fileID: 751509994247742142}
+  m_Layer: 0
+  m_Name: SoulScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &751509994247742143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751509994247742140}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &751509994247742142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751509994247742140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a9615cf666caa47963e6fd2bedc321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Memory: {fileID: 0}
+  Spirit: {fileID: 0}
+  Fatigue: {fileID: 0}
+  MurderYear: {fileID: 0}
+  BetrayalYear: {fileID: 0}
+  LustYear: {fileID: 0}
+  PretenseYear: {fileID: 0}
+  SlothYear: {fileID: 0}
+  StealYear: {fileID: 0}
+  GreedYear: {fileID: 0}
+  LivingSoulManager: {fileID: 0}
+  VisitingSoulManager: {fileID: 0}
+  SolitudeSoulManager: {fileID: 0}
+  FireSoulManager: {fileID: 0}
+  FrozenSoulManager: {fileID: 0}
+  ToilSoulManager: {fileID: 0}
+  AvariceSoulManager: {fileID: 0}
